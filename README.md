@@ -141,3 +141,12 @@ proxychains使用
 验证是否配置成功
 
 `proxychains wget www.google.com`如下载成功说明配置成功,不成功请检查配置文件
+
+[**[yay](url)安装出现错误解决**](https://darkabyss.top/2020/10/28/page8/)
+如果出现以下问题
+`fatal: 无法访问 '***'：OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to aur.archlinux.org:443`
+运行以下命令即可解决
+`git config --global --unset http.proxy`
+如果速度慢运行以下命令（设置git clone代理（每次开启代理都要设置，SSR端口默认为1080，Qv2ray默认为1089））
+`git config --global http.proxy socks5://127.0.0.1:1080`
+`git config --global https.proxy socks5://127.0.0.1:1080`
