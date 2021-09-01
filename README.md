@@ -12,7 +12,7 @@
 
 `sudo pacman -S wqy-microhel`
 
-增加国内Arch源
+增加国内Arch源，参考配制链接：https://github.com/archlinuxcn/repo
 
 `sudo vim /etc/pacman.conf`
 
@@ -30,7 +30,7 @@ vim打开不能输入按i进入编辑模式,按esc,输入:wq退出
 
 安装签名
 
-`sudo pacman -S archlinuxcn-kerying`
+`sudo pacman -S archlinuxcn-keyring`
 
 
 
@@ -40,7 +40,7 @@ vim打开不能输入按i进入编辑模式,按esc,输入:wq退出
 
 首先安装基础包
 
-`sudo packman -S git base-devel`
+`sudo pacman -S git base-devel`
 
 `sudo pacman -S yay`
 
