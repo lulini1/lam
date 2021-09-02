@@ -1,0 +1,5 @@
+安装软件集合
+
+在opt中访问无法复制可按以下示例操作
+
+sudo cp -avr /home/hienz1/Downloads/Linux-Track/linuxtrack-0.99.17 /opt
